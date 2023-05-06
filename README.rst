@@ -10,6 +10,7 @@ Soft deletion:
 Feature
 ----
 Inheriting the SoftDeleteModel model will result in the following features:
+
 -  Automatically add a field `delete_time` [field name configurable]
 -  Data will be marked as deleted and will not be removed from the database on delete
 -  Automatically add deleted filter rule to the current QuerySet(include relation QuerySet) [optional]
